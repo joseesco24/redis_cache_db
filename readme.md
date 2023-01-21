@@ -14,6 +14,12 @@ A simple redis cache database, the idea is to use this redis database as a ttl d
 docker login -u joseesco24 -p < authentication token > ghcr.io
 ```
 
+### Docker Access To The Container Terminal
+
+```bash
+docker exec -it redis_cache_db /bin/bash
+```
+
 ### Docker Push The Image To GitHub Container Registry
 
 ```bash
